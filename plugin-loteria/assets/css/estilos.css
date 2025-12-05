@@ -1,0 +1,136 @@
+.mi-plugin-juego {
+    width: 160px; /* Mantiene el ancho */
+    min-height: 260px; /* Asegura que todas tengan la misma altura */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Distribuye mejor los elementos */
+}
+
+/* Asegurar que la imagen ocupa siempre el mismo espacio */
+.mi-plugin-imagen {
+    width: 100%;  /* O un tamaño fijo, por ejemplo, 80px */
+    height: auto;  /* Para mantener la proporción */
+    max-height: 100px; /* Ajusta este valor según necesites */
+    object-fit: contain;
+    margin-bottom: 5px;
+}
+
+
+/* El nombre del juego siempre ocupará el mismo espacio */
+.mi-plugin-nombre {
+    font-size: 14px;
+    font-weight: bold;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    text-transform: none; /* Permite mayúsculas y minúsculas */
+}
+
+/* El bote también debe mantener una altura fija */
+.mi-plugin-bote {
+    font-size: 16px;
+    color: rgb(0, 174, 255);
+    font-weight: bold;
+    min-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Asegurar que el contador mantiene un espacio fijo */
+.mi-plugin-contador {
+    font-size: 10px;
+    color: #333;
+    font-weight: bold;
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Botón alineado en la parte inferior */
+.mi-plugin-boton-redirigir {
+    display: block;
+    padding: 10px 20px;
+    background-color: #0073aa;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: auto;
+}
+
+.mi-plugin-boton-redirigir:hover {
+    background-color: #005177;
+}
+
+.mi-plugin-juegos-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que se ajusten si hay poco espacio */
+    gap: 10px; /* Espacio entre tarjetas */
+    justify-content: center; /* Centra las tarjetas */
+    background-color: white;
+}
+
+.mi-plugin-juego {
+    width: 160px; /* Ajusta el ancho según necesites */
+    min-height: 250px; /* Mantiene todas las tarjetas del mismo tamaño */
+}
+
+.bote-cantidad {
+    font-size: 20px; /* Tamaño más grande para el número */
+    font-weight: bold;
+    color: red;
+    vertical-align: middle; /* Alinear verticalmente con el texto */
+}
+
+.bote-millones {
+    font-size: 16px; /* Tamaño ligeramente más pequeño que el número */
+    color: red;
+    font-weight: bold;
+    vertical-align: middle; /* Mantener alineación con el número */
+    margin-left: 2px; /* Pequeño margen para separación */
+}
+
+.mi-plugin-bote-sin {
+    font-size: 16px;
+    font-weight: bold;
+    color: #005f5f; /* Azul oscuro con tono verde */
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.owl-carousel .mi-plugin-juego {
+    text-align: center;
+    padding: 10px;
+}
+
+.owl-carousel .mi-plugin-imagen {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.owl-carousel .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.owl-carousel .owl-prev, 
+.owl-carousel .owl-next {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
