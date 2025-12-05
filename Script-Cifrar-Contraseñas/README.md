@@ -1,2 +1,2 @@
-# Script para cifrar contraseñas
+# Script para cifrar contraseñas con Java
  
