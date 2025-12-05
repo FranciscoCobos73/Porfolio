@@ -1,0 +1,53 @@
+body {
+    background: url('../img/fondo.gif') center center fixed;
+    background-size: cover;
+    color: #ff7518;
+    font-family: 'Creepster', cursive, Arial, sans-serif;
+}
+
+.navbar, .card {
+    background-color: #222 !important;
+    border: 2px solid #ff7518;
+}
+
+.btn-halloween {
+    background-color: #ff7518;
+    color: #222;
+    border: 2px solid #222;
+    font-family: 'Creepster', cursive;
+    transition: 0.2s;
+}
+
+.btn-halloween:hover {
+    background-color: #222;
+    color: #ff7518;
+    border: 2px solid #ff7518;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex: 1;
+}
+
+footer {
+    border-top: 2px solid #ff7518;
+    background: #222;
+    color: #ff7518;
+    font-family: 'Creepster', cursive;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer a {
+    color: #ff7518;
+    text-decoration: none;
+}
